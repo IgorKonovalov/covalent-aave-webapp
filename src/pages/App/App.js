@@ -1,4 +1,5 @@
 import styles from './App.module.scss';
+import { Input } from '../../components';
 
 function App() {
   return (
@@ -7,6 +8,10 @@ function App() {
         <p>
           Covalent-Aave webapp test
         </p>
+        <Input
+          name="search"
+          label="search"
+        />
       </header>
     </div>
   );
